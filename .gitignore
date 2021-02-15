@@ -1,0 +1,48 @@
+public
+
+# The development sqlite file
+database/*.sqlite# Node modules
+node_modules
+# Adonis directory for storing tmp files
+tmp/*
+
+# exception to the rule
+!tmp/.gitkeep
+
+# Environment variables, never commit this file
+.env
+
+# Public directory
+
+# IDE & vscode Editors
+.idea
+.vscode
+
+# OSX
+*.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*.lnk
+
+*.iml
+
+# Debug log from npm
+npm-debug.log
+
+*.map
+*.log
+
+# exclude everything
+database/dump/*
+
+# exception to the rule
+!database/dump/.gitkeep
+
+# file to test
+test/*
